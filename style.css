@@ -1,0 +1,42 @@
+#container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.modal-box{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    z-index: 100;
+    padding: 2rem 0;
+    border-radius: 10px;
+    display: none;
+}
+.modal-box.show{
+    display: block;
+}
+
+.backdrop{
+    position: fixed;
+    width: 100%;
+    background: #000;
+    opacity: 0.8;
+    height: 100vh;
+    display: none;
+}
+.backdrop.show{
+    display: block;
+}
+
+.add-exam{
+    
+    height: 2.4rem;
+    margin-top: 2rem;
+}
+
+.table{
+    margin-top: 6rem !important;
+}
